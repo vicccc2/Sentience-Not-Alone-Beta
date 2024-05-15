@@ -29,7 +29,7 @@ let config = {
         y: 400,
         x: 0
       },
-      debug: true
+      debug: false
     }
   },
   scene: [mainMenuScene, Cutscene1, Cutscene2, Cutscene3, Cutscene4, Cutscene5, fall_1, fall_2, fall_3, gameOver]

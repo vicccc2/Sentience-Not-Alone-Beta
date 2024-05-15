@@ -80,6 +80,7 @@ class Cutscene2 extends CutScene {
     this.load.image('weaponGiven', 'Assets/levels/cutScenes/cutscenes2/firstItem.png');
     this.load.audio('mysteryMusic', 'Assets/Audio/music/Fast Mystery.ogg');
     this.load.image('howToKill', 'Assets/levels/cutScenes/howToKill.png');
+    this.load.image('howToTalk', 'Assets/levels/cutScenes/howToTalk.png');
 
   }
 
@@ -117,6 +118,7 @@ class Cutscene2 extends CutScene {
       new Actor('June', 'takeIn', '#c6e6c1'),
       new Actor('June', 'weaponGiven', '#c6e6c1'),
       new Actor('???', 'howToKill', '#FFF'),
+      new Actor('???', 'howToTalk', '#FFF'),
       new Actor('June', 'firstBattle', '#c6e6c1'),
       new Actor('June', 'firstBattle', '#c6e6c1'),
       new Actor('???', 'firstBattle', '#FFF'),
@@ -139,6 +141,7 @@ class Cutscene2 extends CutScene {
         'Alright! We are going to need to prepare you for the battle ahead.',
         'Here, how about you take this.',
         '[x] to Shoot',
+        'Get close to an NPC and click the down arrow key if you want to talk.',
         "There are plenty of M.P.U. (small robots) roaming around, if you destroy let's say about ten and bring me back thier parts it will prove to me are ready.",
         "Good luck and don't feel bad for destroying them, they serve the CREATOR.",
         "Well if she says it's fine..."

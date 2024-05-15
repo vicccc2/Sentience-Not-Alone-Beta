@@ -192,6 +192,9 @@ class Cutscene3 extends CutScene {
       duration: 2000
     });
 
+    MAX_HEALTH = 15;
+    health = 15;
+
     this.cManager.newConversation(new Conversation([
       new Actor('June', 'takeIn', '#c6e6c1'),
       new Actor('June', 'takeIn', '#c6e6c1'),
@@ -202,7 +205,7 @@ class Cutscene3 extends CutScene {
         'Nice job! You have proven more than enough that you are ready.',
         'We have a camp not too far from here. There you will meet more of "us," others fighting back against the CREATOR.',
         'People give us many names, revolutionists, rebels, anrchists, freedom fighters, the list goes on, but we like to call are selves "Not Alone."',
-        'Congradulations! You are now offically a part of this group! (Communication Device Aquired!)',
+        'Congradulations! You are now offically a part of this group! (Communication Device Aquired! Health has gone up to 15 points!)',
         'You and the team make your way to the camp, but on the way...'
       ]));
 

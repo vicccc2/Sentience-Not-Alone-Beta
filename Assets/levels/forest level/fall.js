@@ -366,7 +366,7 @@ class fall_3 extends UIScene {
     this.load.audio('snowMusic', 'Assets/Audio/music/Near and Far.mp3');
 
     //characters
-    this.load.image('PC', 'Assets/Sprites/Characters/player/pc.png');
+    this.load.image('PC_com', 'Assets/Sprites/Characters/player/pc_com.png');
 
     // BG
     this.load.image('moon', 'Assets/levels/forest level/tileset/moon.png');
@@ -437,7 +437,7 @@ class fall_3 extends UIScene {
     myworldlayer.setCollisionByProperty({ collides: true });
 
     // player
-    player = new Player(16, 165, 'PC', 'jump', 'damage');
+    player = new Player(16, 165, 'PC_com', 'jump', 'damage');
 
     this.physics.add.collider(player.sprite, myworldlayer);
 
